@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="/assets/imagen.ico">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <header id="contenedor">
+        <div>
+            <div class="pt-3 px-5 d-flex cabeza">
+                <img src="./assets/107399.png" alt="" class="logo">
+                <div class="px-5">
+                    <h1>FRANCO Pet Shop</h1>
+                    <h2>TU MASCOTA TE LO AGRADECERÁ</h2>
+                </div>
+            </div>
+            <div class="headerImg">
+                <nav class="navbar navbar-expand-lg enlaces">
+                    <div class="container-fluid mt-2">
+                        <div class="navbar-collapse justify-content-between" id="navbarSupportedContent">
+                            <div>
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Tienda
+                                </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="./pages/juguetes.html">Juguetes</a></li>
+                                            <li><a class="dropdown-item" href="./pages/farmacia.html">Medicamentos</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2" id="prueba">
+                                <i class="fas fa-shopping-cart pr-2"></i>
+                                Carrito
+                            </button>
+                                <div class="col ocultarContenido" id="contenidoOculto">
+                                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                        <div class="card card-body carro">
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class=" d-flex align-items-center ">
+                                                    <p class="mb-0">Total </p>
+                                                    <p class="ml-4 mb-0 total"></p>
+                                                    <button class="btn btn-success ml-auto botonComprar" type="button" data-toggle="modal" data-target="#comprarModal">Comprar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <section>
+        <h2 class="tituloSecciones">INICIO</h2>
+        <div>
+            <div>
+                <div class="d-flex justify-content-between px-2 py-5">
+                    <div class="w-50 px-5 pt-5 mt-5">
+                        <h3 class="sobreNosotros historia mt-2">SERVICIOS</h3>
+                        <div class="historia">
+                            <h5>Consultorio Veterinario</h5>
+                            <h5>Tenemos un gran equipo de médicos veterinarios capacitados para darle atención integral a tu mascota las 24hs 365 días al año.
+                            </h5>
+                        </div>
+                    </div>
+                    <div id="carouselExampleControls" class="carousel slide w-50" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/assets/Borrar/caracteristicas-del-schnauzer-1-620x349.jpg" class="d-block w-100 bordeImg" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/Borrar/3.jpg" class="d-block w-100 bordeImg" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/Borrar/schnauzer-raza-de-perro.jpg" class="d-block w-100 bordeImg" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                            <span class="visually-hidden ">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="servicios">
+                        <div class="pl-5 historia">
+                            <div class="d-flex mt-5">
+                                <div class="mr-5 border-right w-50">
+                                    <h5 class="sobreNosotros pb-5"> Algunos servicios para tu mascota en nuestro consultorio:</h5>
+                                    <h6>Revision general</h6>
+                                    <h6>Asistencia integral</h6>
+                                    <h6>Vacunación</h6>
+                                    <h6>Desparasitación</h6>
+                                    <h6>Certificado de salud</h6>
+                                    <h6> Colocación de microchip en mascotas</h6>
+                                </div>
+                                <div class="pl-5 ml-5 historia">
+                                    <h5 class="sobreNosotros pb-5">Te ofrecemos: </h5>
+                                    <h6>Consultorio Veterinario 24hs</h6>
+                                    <h6>Especialistas</h6>
+                                    <h6>Internación</h6>
+                                    <h6>Cirugía</h6>
+                                    <h6>Laboratorio propio</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="mt-5">
+            <div class="d-flex justify-content-around">
+                <div class="w-50 ml-3 mt-5">
+                    <h6 class="titulosFooter">SERVICIOS</h6>
+                    <p class>Urgencias 24 hs.</p>
+                    <p class>Internación</p>
+                    <p>Análisis Clínicos</p>
+                    <p>Diagnóstico por imágenes</p>
+                    <p>Vacunación</p>
+                    <p>Especialistas</p>
+                </div>
+                <div class="mt-5 ml-5 w-50">
+                    <h6 class="titulosFooter">HORARIOS</h6>
+                    <p>Abierto 24 hs. Domingos y feriados. Los 365 dias del año</p>
+                </div>
+                <div class="pr-5 mt-5 pl-5 w-100">
+                    <h6 class="titulosFooter">DIRECCIÓN</h6>
+                    <p>Rio de Janeiro 300 (Caballito)</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.6890104918198!2d-58.43021493431099!3d-34.61202467593723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca69e8801f6b%3A0x36bdd70bb38f25c3!2sSupermercados%20D%C3%ADa!5e0!3m2!1ses-419!2sar!4v1609734018229!5m2!1ses-419!2sar"
+                        width="200" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="w-25 mt-5">
+                    <h6 class="titulosFooter">CONTACTO</h6>
+                    <p>Teléfono: 011 1236 4567</p>
+                    <div class="d-flex">
+                        <p class="mr-2">email:</p><a href="mailto" class="email"> francopetshop@gmail.com</a></div>
+
+                </div>
+                <div class="pt-5 pl-5 pr-3">
+                    <h6 class="titulosFooter mb-5">MEDIOS DE PAGO</h6>
+                    <img src="/assets/medios-de-pago-tarjetas-lilis.jpg" alt="" class="metodosDePago">
+                </div>
+            </div>
+
+            <div class="textoFinal">
+                <h5>© 2021 FRANCO Pet Shop. Todos los derechos reservados.</h5>
+            </div>
+        </footer>
+
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="/scripts/script.js"></script>
+</body>
+
+</html>

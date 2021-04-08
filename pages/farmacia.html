@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacia</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="/assets/imagen.ico">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="pt-3 px-5 d-flex cabeza">
+            <img src="../assets/107399.png" alt="" class="logo">
+            <div class="px-5">
+                <h1>FRANCO Pet Shop</h1>
+                <h2>TU MASCOTA TE LO AGRADECERÁ</h2>
+            </div>
+        </div>
+        <div class="headerImg">
+            <nav class="navbar navbar-expand-lg enlaces">
+                <div class="container-fluid mt-2">
+                    <div class="navbar-collapse justify-content-between" id="navbarSupportedContent">
+                        <div>
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tienda
+                            </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="/pages/juguetes.html">Juguetes</a></li>
+                                        <li><a class="dropdown-item" href="#">Medicamentos</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#carritoModal" id="prueba"> <i class="fas fa-shopping-cart pr-2"></i>
+                                Carrito</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="carritoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header carro">
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                        </div>
+                                        <div class=" d-flex align-items-center ">
+                                            <p class="mb-0">Total </p>
+                                            <p class="ml-4 mb-0 total"></p>
+                                            <button class="btn btn-success ml-auto botonComprar" type="button" data-toggle="modal" data-target="#comprarModal">Comprar</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <h2 class="tituloSecciones">FARMACIA</h2>
+    <section id="secFarm" class="container cajaPrincipal">
+
+        <div id="contenedor" class="d-flex flex-wrap ml-5">
+
+        </div>
+
+        <!-- MODAL CONTENIDO -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body cajasModal">
+
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                        <button class="btn btn-primary agregarCarrito">Agregar al Carrito</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="mt-5">
+        <div class="d-flex justify-content-around">
+            <div class="w-50 ml-3 mt-5">
+                <h6 class="titulosFooter">SERVICIOS</h6>
+                <p>Urgencias 24 hs.</p>
+                <p>Internación</p>
+                <p>Análisis Clínicos</p>
+                <p>Diagnóstico por imágenes</p>
+                <p>Vacunación</p>
+                <p>Especialistas</p>
+            </div>
+            <div class="mt-5 ml-5 w-50">
+                <h6 class="titulosFooter">HORARIOS</h6>
+                <p>Abierto 24 hs. Domingos y feriados. Los 365 dias del año</p>
+            </div>
+            <div class="pr-5 mt-5 pl-5 w-100">
+                <h6 class="titulosFooter">DIRECCIÓN</h6>
+                <p>Rio de Janeiro 300 (Caballito)</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.6890104918198!2d-58.43021493431099!3d-34.61202467593723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca69e8801f6b%3A0x36bdd70bb38f25c3!2sSupermercados%20D%C3%ADa!5e0!3m2!1ses-419!2sar!4v1609734018229!5m2!1ses-419!2sar"
+                    width="200" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="w-25 mt-5">
+                <h6 class="titulosFooter">CONTACTO</h6>
+                <p>Teléfono: 011 1236 4567</p>
+                <div class="d-flex">
+                    <p class="mr-2">email:</p><a href="mailto" class="email"> francopetshop@gmail.com</a></div>
+
+            </div>
+            <div class="pt-5 pl-5 pr-3">
+                <h6 class="titulosFooter mb-5">MEDIOS DE PAGO</h6>
+                <img src="/assets/medios-de-pago-tarjetas-lilis.jpg" alt="" class="metodosDePago">
+            </div>
+        </div>
+
+        <div class="textoFinal">
+            <h5>© 2021 FRANCO Pet Shop. Todos los derechos reservados.</h5>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="/scripts/script.js "></script>
+</body>
+
+</html>

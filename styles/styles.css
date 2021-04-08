@@ -1,0 +1,146 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     background-color: #a17f0d;
+ }
+ 
+ .headerImg {
+     display: flex;
+     background-image: url(/assets/schnauzer-enano-2-XxXx80.jpg);
+     background-size: cover;
+     background-position: 10% 35%;
+     height: 30vh;
+     justify-items: end;
+ }
+ 
+ .anchoCajas {
+     margin: 3vh 3vw;
+     height: 62vh;
+     width: 20vw;
+ }
+ 
+ .margenText {
+     margin: 0 0 0 2vw;
+     padding: 0;
+ }
+ 
+ .boton {
+     display: flex;
+     height: 7vh;
+     justify-content: space-evenly;
+     align-items: center;
+     font-size: 3vh;
+     background-color: rgba(8, 118, 192, 0.815);
+     color: rgb(255, 247, 247);
+ }
+ 
+ .ultimasUnidades {
+     background-color: rgba(243, 3, 3, 0.842);
+     box-sizing: border-box;
+     text-align: center;
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     color: white;
+ }
+ 
+ .ocultarContenido {
+     display: none;
+ }
+ 
+ .logo {
+     height: 10vh;
+ }
+ 
+ .enlaces {
+     align-self: flex-end;
+     background-color: rgba(255, 255, 255, 0.658);
+     width: 100%;
+     height: 10vh;
+ }
+ 
+ h1,
+ h2,
+ .historia {
+     font-size: 2vw;
+     color: rgba(255, 255, 255, 0.836);
+     font-family: 'Source Code Pro';
+ }
+ 
+ .cabeza {
+     justify-content: center;
+     background-color: rgba(255, 255, 255, 0.767);
+     height: 15vh;
+ }
+ 
+ .bordeImg {
+     border-radius: 5vw;
+ }
+ 
+ .servicios {
+     margin: 0 0 0 2vw;
+ }
+ 
+ .sobreNosotros {
+     text-decoration: underline;
+ }
+ 
+ h1,
+ h2 {
+     color: black;
+ }
+ 
+ footer {
+     background-color: white;
+ }
+ 
+ .metodosDePago {
+     width: 20vw;
+ }
+ 
+ .titulosFooter {
+     padding-bottom: 2vw;
+     border-bottom: solid rgba(0, 0, 0, 0.527) 1px;
+ }
+ 
+ .textoFinal {
+     padding: 1vw 0 1vw 0;
+     border-top: solid black 2vw;
+     text-align: center;
+ }
+ 
+ .secFormulario {
+     background-color: white;
+ }
+ 
+ textarea {
+     display: block;
+     resize: none;
+     margin-bottom: 1vw;
+ }
+ 
+ .datosForm {
+     border: none;
+     border-bottom: solid 1px;
+ }
+ 
+ .tituloSecciones {
+     margin-top: 1vw;
+     color: white;
+     height: 10vh;
+     background-color: rgba(0, 0, 0, 0.589);
+     text-align: center;
+     padding-top: 1vw;
+ }
+ 
+ .tituloSeccionesContacto {
+     margin-top: 1vw;
+     color: white;
+     height: 10vh;
+     background-color: rgba(0, 0, 0, 0.589);
+     text-align: center;
+     padding-top: 1vw;
+ }
